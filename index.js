@@ -8,6 +8,8 @@ const decamelize = (text, separator = '_') => {
 
 	const regex1 = xRegExp('([\\p{Ll}\\d])(\\p{Lu})', 'g');
 	const regex2 = xRegExp('(\\p{Lu}+)(\\p{Lu}[\\p{Ll}\\d]+)', 'g');
+	const regex3 = xRegExp('([a-zA-Z])(\\d)', 'g');
+	const regex4 = xRegExp('(\\d)([a-zA-Z])', 'g');
 
 	return text
 		// TODO: Use this instead of `xregexp` when targeting Node.js 10:
@@ -15,6 +17,8 @@ const decamelize = (text, separator = '_') => {
 		// .replace(/(\p{Lowercase_Letter}+)(\p{Uppercase_Letter}[\p{Lowercase_Letter}\d]+)/gu, `$1${separator}$2`)
 		.replace(regex1, `$1${separator}$2`)
 		.replace(regex2, `$1${separator}$2`)
+		.replace(regex3, `$1${separator}$2`)
+		.replace(regex4, `$1${separator}$2`)
 		.toLowerCase();
 };
 
