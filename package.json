@@ -1,6 +1,6 @@
 {
 	"name": "@achipiga/decamelize",
-	"version": "4.0.0",
+	"version": "4.1.0",
 	"description": "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
 	"license": "MIT",
 	"scope": "achipiga",
@@ -33,7 +33,7 @@
 		"convert"
 	],
 	"dependencies": {
-		"xregexp": "^4.2.4"
+		"xregexp": "4.2.4"
 	},
 	"devDependencies": {
 		"ava": "^1.4.1",
