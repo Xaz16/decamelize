@@ -1,9 +1,9 @@
 {
-	"name": "@galcg/decamelize",
+	"name": "@cg-marketing/decamelize",
 	"version": "4.1.0",
 	"description": "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
 	"license": "MIT",
-	"scope": "galcg",
+	"scope": "cg-marketing",
 	"repository": "cg-marketing/decamelize",
 	"engines": {
 		"node": ">=6"
