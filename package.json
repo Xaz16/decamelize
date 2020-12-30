@@ -1,14 +1,10 @@
 {
-	"name": "@achipiga/decamelize",
+	"name": "@galcg/decamelize",
 	"version": "4.1.0",
 	"description": "Convert a camelized string into a lowercased one with a custom separator: unicornRainbow → unicorn_rainbow",
 	"license": "MIT",
-	"scope": "achipiga",
-	"repository": "Xaz16/decamelize",
-	"author": {
-		"name": "Aleksey Chipiga",
-		"email": "gxaz16@gmail.com"
-	},
+	"scope": "galcg",
+	"repository": "cg-marketing/decamelize",
 	"engines": {
 		"node": ">=6"
 	},
